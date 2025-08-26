@@ -284,4 +284,5 @@ if __name__ == "__main__":
     else:
         import tkinter
         root = tkinter.Tk(); root.withdraw()
+
         messagebox.showerror( "Critical Dependency Missing", f"FFmpeg executable ('{ffmpeg_name}') was not found in the application's folder.\n\nPlease place the executable here:\n{base_dir}\n\nThe application will now close." )
