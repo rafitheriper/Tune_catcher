@@ -62,15 +62,15 @@ A modern, fast, and feature-rich downloader for video and audio content from You
 ## 🚀 Quick Start
 
 ### Option 1: Download Pre-built Executable (Recommended)
-1. Go to the [Releases](https://github.com/yourusername/tunecatcher/releases) page
+1. Go to the [Releases](https://github.com/rafitheriper/tune_catcher/releases) page
 2. Download the latest `TuneCatcher.exe` (Windows) or `TuneCatcher` (macOS/Linux)
 3. Run the executable - no installation required!
 
 ### Option 2: Run from Source
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/tunecatcher.git
-cd tunecatcher
+git clone https://github.com/rafitheriper/tune_catcher.git
+cd tune_catcher
 
 # Install dependencies
 pip install -r requirements.txt
@@ -203,44 +203,6 @@ Downloads/
 - Place `ffmpeg.exe` (Windows) or `ffmpeg` (Linux/macOS) in the same folder
 - Or add FFmpeg to your system PATH
 
-### Getting Help
-- Check the [Issues](https://github.com/yourusername/tunecatcher/issues) page
-- Search existing issues before creating new ones
-- Provide error messages and steps to reproduce
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how to help:
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
-
-### Development Setup
-```bash
-# Clone your fork
-git clone https://github.com/yourusername/tunecatcher.git
-cd tunecatcher
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # Linux/macOS
-# or
-venv\Scripts\activate     # Windows
-
-# Install development dependencies
-pip install -r requirements-dev.txt
-```
-
-### Contributing Screenshots
-When contributing screenshots:
-- Use consistent window size and OS theme
-- Show realistic usage scenarios
-- Compress images to keep repository size manageable
-- Update this README if adding new screenshot categories
-
 ### Development Dependencies
 ```txt
 # requirements-dev.txt
@@ -254,9 +216,6 @@ black>=23.0.0
 flake8>=6.0.0
 ```
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -301,7 +260,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
 
 **⭐ Star this repository if you find it helpful! ⭐**
-
-[Report Bug](https://github.com/yourusername/tunecatcher/issues) • [Request Feature](https://github.com/yourusername/tunecatcher/issues) • [Discussions](https://github.com/yourusername/tunecatcher/discussions)
 
 </div>
