@@ -31,7 +31,9 @@ A modern, fast, and feature-rich downloader for video and audio content from You
 *Interactive playlist item selection interface*
 
 ### Dark Theme
-![Dark Theme](screenshots/dark-theme.png)
+
+<img width="768" height="742" alt="Image" src="https://github.com/user-attachments/assets/2b08173a-83be-4661-afe4-8e43cd785766" />
+
 *Beautiful dark mode for comfortable usage*
 
 </div>
