@@ -16,15 +16,18 @@ A modern, fast, and feature-rich downloader for video and audio content from You
 *Clean and intuitive downloader interface with URL preview*
 
 ### Download in Progress
-![Download Progress](screenshots/download-progress.png)
+<img width="780" height="745" alt="Image" src="https://github.com/user-attachments/assets/f05ab443-d500-41fa-b55c-a4f293c526e9" />
+
 *Real-time progress tracking with speed and ETA*
 
 ### Settings Panel
-![Settings](screenshots/settings-panel.png)
+<img width="773" height="744" alt="Image" src="https://github.com/user-attachments/assets/ae4ac647-8594-4cdb-9824-a6cbc1074917" />
+
 *Comprehensive settings with theme support and browser integration*
 
 ### Playlist Selection
-![Playlist Selection](screenshots/playlist-selection.png)
+<img width="810" height="557" alt="Image" src="https://github.com/user-attachments/assets/dbfee440-a1e7-4f9e-800f-61aa643da8ca" />
+
 *Interactive playlist item selection interface*
 
 ### Dark Theme
