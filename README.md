@@ -6,6 +6,36 @@ A modern, fast, and feature-rich downloader for video and audio content from You
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
+## 📸 Screenshots
+
+<div align="center">
+
+### Main Interface
+![Main Interface](screenshots/main-interface.png)
+*Clean and intuitive downloader interface with URL preview*
+
+### Download in Progress
+![Download Progress](screenshots/download-progress.png)
+*Real-time progress tracking with speed and ETA*
+
+### Settings Panel
+![Settings](screenshots/settings-panel.png)
+*Comprehensive settings with theme support and browser integration*
+
+### Playlist Selection
+![Playlist Selection](screenshots/playlist-selection.png)
+*Interactive playlist item selection interface*
+
+### Download History
+![Download History](screenshots/download-history.png)
+*Track and manage your download history*
+
+### Dark Theme
+![Dark Theme](screenshots/dark-theme.png)
+*Beautiful dark mode for comfortable usage*
+
+</div>
+
 ## ✨ Features
 
 ### Core Functionality
@@ -39,8 +69,8 @@ A modern, fast, and feature-rich downloader for video and audio content from You
 ### Option 2: Run from Source
 ```bash
 # Clone the repository
-git clone https:https://github.com/rafitheriper/Tune_catcher
-cd tune_catcher
+git clone https://github.com/yourusername/tunecatcher.git
+cd tunecatcher
 
 # Install dependencies
 pip install -r requirements.txt
@@ -60,6 +90,28 @@ python tunecatcher.py
 pip install customtkinter yt-dlp pillow requests
 ```
 
+### Building Executable
+```bash
+# Install PyInstaller
+pip install pyinstaller
+
+# Build for Windows
+pyinstaller --onefile --noconsole --optimize=2 \
+  --exclude-module tkinter.test \
+  --exclude-module test \
+  --exclude-module unittest \
+  --add-binary "ffmpeg.exe;." \
+  --icon=icon.ico \
+  tunecatcher.py
+
+# Build for macOS/Linux
+pyinstaller --onefile --optimize=2 \
+  --exclude-module tkinter.test \
+  --exclude-module test \
+  --exclude-module unittest \
+  --add-binary "ffmpeg;." \
+  tunecatcher.py
+```
 
 ## 📖 Usage Guide
 
@@ -151,6 +203,57 @@ Downloads/
 - Place `ffmpeg.exe` (Windows) or `ffmpeg` (Linux/macOS) in the same folder
 - Or add FFmpeg to your system PATH
 
+### Getting Help
+- Check the [Issues](https://github.com/yourusername/tunecatcher/issues) page
+- Search existing issues before creating new ones
+- Provide error messages and steps to reproduce
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how to help:
+
+1. **Fork** the repository
+2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
+3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
+4. **Push** to the branch (`git push origin feature/amazing-feature`)
+5. **Open** a Pull Request
+
+### Development Setup
+```bash
+# Clone your fork
+git clone https://github.com/yourusername/tunecatcher.git
+cd tunecatcher
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # Linux/macOS
+# or
+venv\Scripts\activate     # Windows
+
+# Install development dependencies
+pip install -r requirements-dev.txt
+```
+
+### Contributing Screenshots
+When contributing screenshots:
+- Use consistent window size and OS theme
+- Show realistic usage scenarios
+- Compress images to keep repository size manageable
+- Update this README if adding new screenshot categories
+
+### Development Dependencies
+```txt
+# requirements-dev.txt
+customtkinter>=5.2.0
+yt-dlp>=2023.12.30
+pillow>=10.0.0
+requests>=2.31.0
+pyinstaller>=6.0.0
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+```
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -179,7 +282,19 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 📱 Enhanced playlist selection interface
 - 💾 Optimized settings management
 - 🐛 Various bug fixes and stability improvements
-t
+
+### v1.1
+- 🍪 Added browser cookie support
+- 📝 Custom filename templates
+- 📊 Real-time download progress
+- 🎵 Thumbnail embedding for audio files
+- 📚 Download history tracking
+
+### v1.0
+- 🎉 Initial release
+- 🎬 Video and audio downloading
+- 📝 Playlist support
+- 🎨 Modern UI with theme support
 
 ---
 
@@ -187,5 +302,6 @@ t
 
 **⭐ Star this repository if you find it helpful! ⭐**
 
+[Report Bug](https://github.com/yourusername/tunecatcher/issues) • [Request Feature](https://github.com/yourusername/tunecatcher/issues) • [Discussions](https://github.com/yourusername/tunecatcher/discussions)
 
 </div>
