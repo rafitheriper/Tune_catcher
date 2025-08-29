@@ -11,7 +11,7 @@ A modern, fast, and feature-rich downloader for video and audio content from You
 <div align="center">
 
 ### Main Interface
-![Main Interface](screenshots/main-interface.png)
+<img width="785" height="751" alt="Image" src="https://github.com/user-attachments/assets/8b07c45e-a115-4cb7-bf0a-84088de8875c" />
 *Clean and intuitive downloader interface with URL preview*
 
 ### Download in Progress
@@ -25,10 +25,6 @@ A modern, fast, and feature-rich downloader for video and audio content from You
 ### Playlist Selection
 ![Playlist Selection](screenshots/playlist-selection.png)
 *Interactive playlist item selection interface*
-
-### Download History
-![Download History](screenshots/download-history.png)
-*Track and manage your download history*
 
 ### Dark Theme
 ![Dark Theme](screenshots/dark-theme.png)
