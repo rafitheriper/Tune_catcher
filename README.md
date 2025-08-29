@@ -11,7 +11,7 @@ A modern, fast, and feature-rich downloader for video and audio content from You
 <div align="center">
 
 ### Main Interface
-<img width="785" height="751" alt="Image" src="https://github.com/user-attachments/assets/8b07c45e-a115-4cb7-bf0a-84088de8875c" />
+<img width="785" height="751" alt="Image" src="https://github.com/user-attachments/assets/8b07c45e-a115-4cb7-bf0a-84088de8875c" /> /n
 *Clean and intuitive downloader interface with URL preview*
 
 ### Download in Progress
