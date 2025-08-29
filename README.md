@@ -39,8 +39,8 @@ A modern, fast, and feature-rich downloader for video and audio content from You
 ### Option 2: Run from Source
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/tunecatcher.git
-cd tunecatcher
+git clone https:https://github.com/rafitheriper/Tune_catcher
+cd tune_catcher
 
 # Install dependencies
 pip install -r requirements.txt
@@ -60,28 +60,6 @@ python tunecatcher.py
 pip install customtkinter yt-dlp pillow requests
 ```
 
-### Building Executable
-```bash
-# Install PyInstaller
-pip install pyinstaller
-
-# Build for Windows
-pyinstaller --onefile --noconsole --optimize=2 \
-  --exclude-module tkinter.test \
-  --exclude-module test \
-  --exclude-module unittest \
-  --add-binary "ffmpeg.exe;." \
-  --icon=icon.ico \
-  tunecatcher.py
-
-# Build for macOS/Linux
-pyinstaller --onefile --optimize=2 \
-  --exclude-module tkinter.test \
-  --exclude-module test \
-  --exclude-module unittest \
-  --add-binary "ffmpeg;." \
-  tunecatcher.py
-```
 
 ## 📖 Usage Guide
 
@@ -173,37 +151,6 @@ Downloads/
 - Place `ffmpeg.exe` (Windows) or `ffmpeg` (Linux/macOS) in the same folder
 - Or add FFmpeg to your system PATH
 
-### Getting Help
-- Check the [Issues](https://github.com/yourusername/tunecatcher/issues) page
-- Search existing issues before creating new ones
-- Provide error messages and steps to reproduce
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how to help:
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
-
-### Development Setup
-```bash
-# Clone your fork
-git clone https://github.com/yourusername/tunecatcher.git
-cd tunecatcher
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # Linux/macOS
-# or
-venv\Scripts\activate     # Windows
-
-# Install development dependencies
-pip install -r requirements-dev.txt
-```
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -232,19 +179,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 📱 Enhanced playlist selection interface
 - 💾 Optimized settings management
 - 🐛 Various bug fixes and stability improvements
-
-### v1.1
-- 🍪 Added browser cookie support
-- 📝 Custom filename templates
-- 📊 Real-time download progress
-- 🎵 Thumbnail embedding for audio files
-- 📚 Download history tracking
-
-### v1.0
-- 🎉 Initial release
-- 🎬 Video and audio downloading
-- 📝 Playlist support
-- 🎨 Modern UI with theme support
+t
 
 ---
 
@@ -252,6 +187,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⭐ Star this repository if you find it helpful! ⭐**
 
-[Report Bug](https://github.com/yourusername/tunecatcher/issues) • [Request Feature](https://github.com/yourusername/tunecatcher/issues) • [Discussions](https://github.com/yourusername/tunecatcher/discussions)
 
 </div>
